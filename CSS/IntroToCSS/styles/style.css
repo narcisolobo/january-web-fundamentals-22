@@ -1,0 +1,57 @@
+/*
+
+CSS - Cascading Style Sheets
+CSS is in charge of how our web page looks.
+
+Parts of a CSS rule:
+1. Selector
+2. Property
+3. Value of that property
+
+*/
+
+h1 {
+  color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* 
+
+Types of selectors
+1. Element selector
+2. ID selectors - #
+3. Class selectors - .
+
+*/
+
+#copy {
+  color: red;
+}
+
+.no-bullet {
+  list-style: none;
+}
+
+#large {
+  color: blue;
+}
+
+/* 
+
+Selector Options
+
+Compound selectors:
+  Spaces - selects children
+  div p selects all the p's inside all the div's
+
+  Commas - selects both elements
+  div, p selects all p's and all div's
+
+  Greater Than - selects direct children
+  div>p selects only the direct p children of all div's
+
+*/
+
+div>p {
+  font-size: x-large;
+}
