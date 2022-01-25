@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <!-- Text inputs, same information for the for, name, and id attributes -->
+            <label for="firstName">First name *</label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div>
+            <label for="lastName">Last name *</label>
+            <input type="text" name="lastName" id="lastName">
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <!--
+                Radio inputs, same information for the for, id, value attributes label/input pairs
+                Same name for the radio button set
+            -->
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="description">A short description about myself:</label><br>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Create Account">
+    </form>
+</body>
+</html>
