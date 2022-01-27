@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* utility classes */
+
+.container {
+  /* background-color: aqua; */
+  width: 50%;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+/* header classes */
+
+header {
+  /* background-color: red; */
+  min-height: 50px;
+}
+
+header ul {
+  list-style: none;
+}
+
+.btn {
+  background-color: orange;
+  border: 0;
+  padding: .5em 1em;
+  border-radius: .2em;
+}
+
+/* hero classes */
+
+.hero {
+  /* background-color: yellow; */
+  min-height: 100px;
+}
+
+.hero-content {
+  /* background-color: blue; */
+  min-height: 100px;
+}
+
+.hero-image {
+  flex: 2;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-content {
+  flex: 3;
+}
+
+.hero-content > *, .feature > * {
+  margin-bottom: 1.5rem;
+}
+
+/* byline classes */
+
+.byline {
+  /* background-color: rebeccapurple; */
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.byline img {
+  width: 50px;
+}
+
+/* feature classes */
+
+.features {
+  /* background-color: lavender; */
+  min-height: 100px;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+/* footer classes */
+
+footer {
+  /* background-color: orange; */
+  min-height: 50px;
+}
