@@ -1,4 +1,4 @@
-var title = document.querySelector('#title');
+// var title = document.querySelector('#title');
 var box = document.getElementById('box');
 // console.log(box);
 var counter = 0;
@@ -12,8 +12,8 @@ function changeText(element){
   element.innerText = "You clicked me."
 }
 
-function changeBg(){
-  title.style.backgroundColor = "green"
+function changeBg(element){
+  element.style.backgroundColor = "green"
 }
 
 function hoverOver(element) {

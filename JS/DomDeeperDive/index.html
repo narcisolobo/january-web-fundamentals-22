@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title" onclick="changeText(this)">DOM Deeper Dive</h1>
+    <h1 id="titleH1" onclick="changeText(this)">DOM Deeper Dive</h1>
     <h2 onclick="changeText(this)">The "this" keyword</h2>
     <p onclick="changeText(this)">The "this" keyword changes depending on the context in which it is used.</p>
-    <button onclick="changeBg(); increment()">CLICK ME</button>
+    <button onclick="changeBg(titleH1); increment()">CLICK ME</button>
     <div id="box" onmouseover="hoverOver(this)" onmouseout="hoverOut(this)"></div>
     <img onclick="changePic(this)" src="./images/deku1.png" altsrc='./images/deku2.png' alt="Deku">
     <script src="./domDeeperDive.js"></script>
