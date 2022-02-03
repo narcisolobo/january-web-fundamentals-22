@@ -1,0 +1,37 @@
+Up until now, we've only been learning the front end.
+The big three languages of the front end - HTML, CSS, JS
+
+A full stack is the front end, the back end, and the database.
+
+End game of every stack going forward.
+
+CRUD
+
+We will build web applications capable of full CRUD.
+Create, Read, Update, Destroy
+
+everybodyspets.com
+
+Users are able to log in.
+Create pages for their pets.
+
+A form on the front end for users to create pets.
+A table on the front end for users to read their pets from the database.
+A form on the front end for users to update pets.
+A way to destroy each pet from the database.
+
+PREP FOR PYTHON
+Do the Basic 13 Algorithms
+Stack opens on Friday on the platform. Get a head start on the Python language fundamentals.
+
+Get familiar with the terminal - PC (Command Prompt, Git Bash), Mac (Terminal/ZShell)
+MIT Terminus (Terminal Game) https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html
+Traverse your computer's directory with change directory command (cd).
+List the files in the current directory (PC - dir, Mac - ls)
+Create directories (PC/Mac - mkdir)
+Create files (PC - echo>test <nameOfFile>, Mac - touch <nameOfFile>)
+Run files (JS - node <pathOfFile>, Python - python <pathOfFile>)
+
+SQL
+Structured Query Language (https://www.w3schools.com/sql/sql_intro.asp)
+SQL Zoo Game (https://sqlzoo.net/wiki/SQL_Tutorial)
